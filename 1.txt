@@ -1,0 +1,23 @@
+PROGRAM:
+/*TO PRINT THE NAME*/
+package dinesh;
+import java.io.*;
+import java.util.*;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      System.out.println("Hello");
+      System.out.println("M.DINESH KUMAR");
+       }
+    
+}
+OUTPUT:
+Hello
+M.DINESH KUMAR

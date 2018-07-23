@@ -1,0 +1,25 @@
+PROGRAM:
+/*MULTIPLE OPERATION*/
+package dinesh;
+import java.io.*;
+import java.util.*;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      System.out.println(("The input values are (25.5*3.5-3.5*3.5)/(40.5-4.5)"));
+      System.out.println(( 25.5*3.5-3.5*3.5)/(40.5-4.5));
+      
+       }
+    
+}
+
+OUTPUT:
+The input values are (25.5*3.5-3.5*3.5)/(40.5-4.5)
+2.138888888888889

@@ -1,0 +1,46 @@
+PROGRAM:
+/*ADD,SUB,MUL,DIV,MOD OPERATION*/
+package dinesh;
+import java.io.*;
+import java.util.*;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      int a,b,c,d,e,f,g;
+      System.out.println("enter your a value a=");
+      Scanner s=new Scanner(System.in);
+      a=s.nextInt();
+      System.out.println("enter your b  value b=");
+      b=s.nextInt();
+      c=a+b;
+      d=a-b;
+      e=a*b;
+      f=a/b;
+      g=a%b;
+      System.out.println("the answer is = "+c);// TODO code application logic here
+      System.out.println("the answer is = "+d);
+      System.out.println("the answer is = "+e);
+      System.out.println("the answer is = "+f);
+      System.out.println("the answer is = "+g);
+    }
+    
+}
+
+
+OUTPUT:
+enter your a value a=
+125
+enter your b  value b=
+24
+the answer is = 149
+the answer is = 101
+the answer is = 3000
+the answer is = 5
+the answer is = 5

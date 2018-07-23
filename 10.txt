@@ -1,0 +1,26 @@
+PROGRAM:
+/*MULTIPLE OPERATION*/
+package dinesh;
+import java.io.*;
+import java.util.*;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      System.out.println(("The input values are (4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))"));
+      System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+      
+       }
+    
+}
+
+
+OUTPUT:
+The input values are (4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+2.9760461760461765
