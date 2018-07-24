@@ -1,0 +1,36 @@
+/*SWAP TWO NUMBER*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x, y, z;
+   Scanner in = new Scanner(System.in);
+
+   System.out.println("Enter the first number: ");
+   x = in.nextInt();
+   System.out.println("Enter the second number: ");
+   y = in.nextInt();
+   z = x;
+   x = y;
+   y = z;
+   System.out.println(" Swapped values are:" + x + " and " + y);
+    }
+    
+}
+
+
+OUTPUT:
+Enter the first number: 
+10
+Enter the second number: 
+20
+ Swapped values are:20 and 10

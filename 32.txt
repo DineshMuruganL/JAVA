@@ -1,0 +1,44 @@
+/*COMPARE OPERATION*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x, y, z;
+   Scanner in = new Scanner(System.in);
+
+   System.out.println("Enter the first number: ");
+   x = in.nextInt();
+   System.out.println("Enter the second number: ");
+   y = in.nextInt();
+   if(x==y)
+   System.out.println("x and y are equal ");
+   if(x!=y)
+       System.out.println("x and y are not equal ");
+   if(x<y)
+       System.out.println("x is less then to y ");
+   if(x>y)
+       System.out.println("x is greater then  y  ");
+   
+      
+    }
+    
+}
+
+
+
+OUTPUT:
+Enter the first number: 
+40
+Enter the second number: 
+50
+x and y are not equal 
+x is less then to y 

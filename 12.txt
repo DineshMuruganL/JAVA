@@ -1,0 +1,34 @@
+/*CALCULATE AVG OF THREE NUMBER*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Double a,b,c,d;
+        System.out.println(" enter your aveg three number: ");
+          Scanner s=new Scanner(System.in);
+         a=s.nextDouble();
+         b=s.nextDouble();
+         c=s.nextDouble();
+         d=(a+b+c)/3;
+        System.out.println("the aveg values  is: "+d);
+        
+       }
+    
+}
+
+
+OUTPUT:
+enter your aveg three number: 
+12
+12
+12
+the aveg values  is: 12.0

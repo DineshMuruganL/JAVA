@@ -1,0 +1,38 @@
+/*FIND RECTANGLE AREA AND PERIMETER*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Double a,b,c,d;
+        System.out.println(" enter your weight value: ");
+        Scanner s=new Scanner(System.in);
+        a=s.nextDouble();
+        System.out.println(" enter your height value: ");
+        b=s.nextDouble();
+        c=a*b;
+         d=2*(a+b);
+        System.out.println("THE RECTANGLE OF AREA AND PERIMETER : ");
+        System.out.println("the area values  is: "+c);
+        System.out.println("the perimeter values  is: "+d); 
+       }
+    
+}
+
+
+OUTPUT:
+ THE RECTANGLE OF AREA AND PERIMETER
+ enter your weight value: 
+5.5
+ enter your height value: 
+8.5
+the area values  is: 46.75
+the perimeter values  is: 28.0

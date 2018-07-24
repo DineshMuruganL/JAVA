@@ -1,0 +1,31 @@
+/*CALAULATE PERIMETER AND AREA OF CIRCLE*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Double a,b,c,radius;
+        System.out.println(" enter the radius of the circle: ");
+          Scanner s=new Scanner(System.in);
+         a=s.nextDouble();
+         b=2*a*3.14;
+        c=3.14*a*a;
+        System.out.println("perimeters is: "+b);
+        System.out.println("area is: "+c);
+       }
+    
+}
+
+OUTPUT:
+enter the radius of the circle: 
+7.5
+perimeters is: 47.1
+area is: 176.625

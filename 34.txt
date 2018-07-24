@@ -1,0 +1,31 @@
+/*CALCULATE HEXAGON AREA*/
+PROGRAM:
+package dinesh;
+import java.util.Scanner;
+/**
+ *
+ * @author DINESHKUMAR
+ */
+public class DINESH {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Double n, y, z;
+   Scanner input = new Scanner(System.in);
+        System.out.print("Input an integer: ");
+        n = input.nextDouble();
+        System.out.println("enter your side value: ");
+        y=(3*1.732)/2*n*n;
+        System.out.println("the hexagon area value is: "+y);
+            }
+
+   
+    }
+    
+
+OUTPUT:
+Input an integer: 6
+enter your side value: 
+the hoxgon area value is: 93.52799999999999
